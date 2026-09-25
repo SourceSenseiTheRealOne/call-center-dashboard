@@ -71,7 +71,7 @@ const DashboardLayout = () => {
             <div className="h-8 w-8 rounded-md bg-primary-600 text-white flex items-center justify-center">
               <Phone size={18} />
             </div>
-            <span className="ml-2 text-lg font-semibold">AI Call Center</span>
+            <span className="ml-2 text-lg font-semibold">Call Center Prototype</span>
           </div>
           <button 
             className="rounded-md p-1 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:hidden" 
@@ -101,7 +101,7 @@ const DashboardLayout = () => {
             <>
               <div className="my-4 border-t border-gray-200" />
               <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-gray-500">
-                Admin
+                Demo admin
               </p>
               <div className="space-y-1">
                 {adminNavItems.map((item) => (
@@ -179,6 +179,7 @@ const DashboardLayout = () => {
         
         {/* Page content */}
         <main className="flex-1 overflow-auto p-4 md:p-6">
+          <p>Frontend prototype: all metrics, contacts and statuses are simulated. Demo roles are client-side only; no real calls or business-data persistence.</p>
           <Outlet />
         </main>
       </div>

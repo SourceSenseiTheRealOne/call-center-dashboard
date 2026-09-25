@@ -36,14 +36,14 @@ const Login = () => {
               <div className="mr-2 h-10 w-10 rounded-md bg-white text-primary-700 flex items-center justify-center">
                 <Phone size={24} />
               </div>
-              <h1 className="text-2xl font-bold">AI Call Center</h1>
+              <h1 className="text-2xl font-bold">Call Center Dashboard — Frontend Prototype</h1>
             </div>
             <h2 className="mb-6 text-4xl font-bold leading-tight">
-              Revolutionize your customer interactions with AI-powered calling
+              Explore a simulated call-center dashboard
             </h2>
             <p className="text-lg opacity-90">
-              Manage your AI agents, predefined messages, and workflows all in one place.
-              Automate routine calls while maintaining personalized customer experiences.
+              A React interface for sample analytics, message templates and workflow views.
+              No telephony, AI execution or provider backend is implemented.
             </p>
           </div>
         </div>
@@ -53,12 +53,13 @@ const Login = () => {
       <div className="w-full px-4 lg:w-1/2">
         <div className="flex h-full flex-col items-center justify-center py-12">
           <div className="w-full max-w-md space-y-8">
+            <p>Simulated dashboard. No real calls, AI backend or secure accounts. Do not enter real credentials or contacts.</p>
             {/* Logo for mobile */}
             <div className="flex items-center justify-center lg:hidden">
               <div className="h-12 w-12 rounded-md bg-primary-600 text-white flex items-center justify-center">
                 <Phone size={28} />
               </div>
-              <h1 className="ml-3 text-2xl font-bold text-gray-900">AI Call Center</h1>
+              <h1 className="ml-3 text-2xl font-bold text-gray-900">Call Center Dashboard — Frontend Prototype</h1>
             </div>
             
             <div className="text-center">
@@ -129,7 +130,7 @@ const Login = () => {
                 
                 <div className="text-sm">
                   <a href="#" className="font-medium text-primary-600 hover:text-primary-500">
-                    Forgot your password?
+                    Reset unavailable
                   </a>
                 </div>
               </div>
@@ -140,7 +141,7 @@ const Login = () => {
                   disabled={isSubmitting}
                   className="btn-primary w-full py-3 transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
                 >
-                  {isSubmitting ? 'Signing in...' : 'Sign in'}
+                  {isSubmitting ? 'Opening demo...' : 'Open demo'}
                 </button>
               </div>
             </form>

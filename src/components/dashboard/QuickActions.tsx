@@ -9,25 +9,25 @@ const QuickActions = () => {
   const actions = [
     {
       title: 'New Phone Call',
-      description: 'Schedule a call with an AI agent',
+      description: 'Demo only; calling is not implemented',
       icon: <Phone size={18} />,
       color: 'bg-primary-50 text-primary-700',
     },
     {
       title: 'Create Message',
-      description: 'Create a new message template',
+      description: 'Demo only; template creation is not implemented',
       icon: <MessageSquare size={18} />,
       color: 'bg-secondary-50 text-secondary-700',
     },
     {
       title: 'Schedule Call',
-      description: 'Set up a call for a future time',
+      description: 'Demo only; scheduling is not implemented',
       icon: <Clock size={18} />,
       color: 'bg-accent-50 text-accent-700',
     },
     {
       title: 'Design Workflow',
-      description: 'Create a new calling workflow',
+      description: 'Demo only; workflow creation is not implemented',
       icon: <GitBranch size={18} />,
       color: 'bg-success-50 text-success-700',
     },
@@ -37,13 +37,13 @@ const QuickActions = () => {
   const adminActions = [
     {
       title: 'Add User',
-      description: 'Create a new user account',
+      description: 'Demo only; account creation is not implemented',
       icon: <Users size={18} />,
       color: 'bg-warning-50 text-warning-700',
     },
     {
-      title: 'Train AI Agent',
-      description: 'Update AI agent knowledge',
+      title: 'AI Training Mockup',
+      description: 'Demo only; AI training is not implemented',
       icon: <Bot size={18} />,
       color: 'bg-error-50 text-error-700',
     },
@@ -53,7 +53,7 @@ const QuickActions = () => {
     ? [...actions, ...adminActions] 
     : [...actions, {
         title: 'Run Test Call',
-        description: 'Test your call setup',
+        description: 'Demo only; test calls are not implemented',
         icon: <PlayCircle size={18} />,
         color: 'bg-warning-50 text-warning-700',
       }];

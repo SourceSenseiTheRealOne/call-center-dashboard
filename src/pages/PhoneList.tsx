@@ -149,7 +149,7 @@ const PhoneList = () => {
       <div className="flex flex-col justify-between space-y-4 sm:flex-row sm:items-center sm:space-y-0">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Phone Numbers</h1>
-          <p className="text-gray-600">Manage phone numbers for AI calling</p>
+          <p className="text-gray-600">Sample directory; no calling, import or contact persistence.</p>
         </div>
         <div className="flex space-x-3">
           <button className="btn btn-primary">

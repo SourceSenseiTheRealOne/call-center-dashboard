@@ -48,7 +48,7 @@ const Settings = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-medium text-gray-900">General Settings</h3>
-              <p className="text-sm text-gray-600">Manage basic account settings and preferences.</p>
+              <p className="text-sm text-gray-600">Local form state only; settings are not saved.</p>
             </div>
             
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -156,8 +156,8 @@ const Settings = () => {
         return (
           <div className="space-y-6">
             <div>
-              <h3 className="text-lg font-medium text-gray-900">AI Agent Settings</h3>
-              <p className="text-sm text-gray-600">Customize how your AI agents interact with customers.</p>
+              <h3 className="text-lg font-medium text-gray-900">Voice Settings Mockup</h3>
+              <p className="text-sm text-gray-600">Simulated controls; no AI agent, voice synthesis or calls.</p>
             </div>
             
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -308,7 +308,7 @@ const Settings = () => {
                   <Mic size={18} className="mr-2 text-gray-500" />
                   <div>
                     <p className="text-sm font-medium text-gray-700">Speech Recognition</p>
-                    <p className="text-xs text-gray-500">Enable AI to understand customer responses</p>
+                    <p className="text-xs text-gray-500">Simulated toggle; speech recognition is not implemented</p>
                   </div>
                 </div>
                 <label className="relative inline-flex cursor-pointer items-center">
@@ -332,7 +332,7 @@ const Settings = () => {
                   <CheckSquare size={18} className="mr-2 text-gray-500" />
                   <div>
                     <p className="text-sm font-medium text-gray-700">Call Transcription</p>
-                    <p className="text-xs text-gray-500">Save text transcripts of all calls</p>
+                    <p className="text-xs text-gray-500">Simulated toggle; no recordings or transcripts are created</p>
                   </div>
                 </div>
                 <label className="relative inline-flex cursor-pointer items-center">
@@ -353,7 +353,7 @@ const Settings = () => {
             </div>
             
             <div className="flex justify-end">
-              <button className="btn btn-secondary mr-3">Test Voice</button>
+              <button className="btn btn-secondary mr-3">Test Voice (not implemented)</button>
               <button className="btn btn-primary">
                 <Save size={16} className="mr-2" />
                 Save Changes
@@ -367,7 +367,7 @@ const Settings = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-medium text-gray-900">Notification Settings</h3>
-              <p className="text-sm text-gray-600">Configure how and when you receive alerts and notifications.</p>
+              <p className="text-sm text-gray-600">Simulated preferences; no alerts, emails or reports are sent.</p>
             </div>
             
             <div className="space-y-4">
@@ -532,7 +532,7 @@ const Settings = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-medium text-gray-900">API & Integrations</h3>
-              <p className="text-sm text-gray-600">Connect with other services and manage API access.</p>
+              <p className="text-sm text-gray-600">Provider cards are mockups; no services are connected and no API keys are generated.</p>
             </div>
             
             <div className="rounded-md border border-gray-200 bg-white">
@@ -546,11 +546,11 @@ const Settings = () => {
                     </div>
                     <div className="ml-3">
                       <h4 className="font-medium text-gray-900">Salesforce</h4>
-                      <p className="text-xs text-gray-500">Sync customer data and call logs</p>
+                      <p className="text-xs text-gray-500">Sample CRM card; no data synchronization</p>
                     </div>
                   </div>
                   <div className="flex items-center">
-                    <span className="badge bg-success-50 text-success-700">Connected</span>
+                    <span className="badge bg-success-50 text-success-700">Simulated — not connected</span>
                     <button className="ml-3 text-sm font-medium text-primary-600 hover:text-primary-700">
                       Configure
                     </button>
@@ -568,7 +568,7 @@ const Settings = () => {
                     </div>
                     <div className="ml-3">
                       <h4 className="font-medium text-gray-900">HubSpot</h4>
-                      <p className="text-xs text-gray-500">Connect to your HubSpot CRM</p>
+                      <p className="text-xs text-gray-500">Sample CRM card; connection not implemented</p>
                     </div>
                   </div>
                   <button className="btn btn-outline btn-sm">Connect</button>
@@ -585,11 +585,11 @@ const Settings = () => {
                     </div>
                     <div className="ml-3">
                       <h4 className="font-medium text-gray-900">Twilio</h4>
-                      <p className="text-xs text-gray-500">Phone number provider and SMS integration</p>
+                      <p className="text-xs text-gray-500">Sample provider card; no telephony or SMS</p>
                     </div>
                   </div>
                   <div className="flex items-center">
-                    <span className="badge bg-success-50 text-success-700">Connected</span>
+                    <span className="badge bg-success-50 text-success-700">Simulated — not connected</span>
                     <button className="ml-3 text-sm font-medium text-primary-600 hover:text-primary-700">
                       Configure
                     </button>
@@ -607,7 +607,7 @@ const Settings = () => {
                     </div>
                     <div className="ml-3">
                       <h4 className="font-medium text-gray-900">Zapier</h4>
-                      <p className="text-xs text-gray-500">Create custom workflow automations</p>
+                      <p className="text-xs text-gray-500">Sample automation card; no execution</p>
                     </div>
                   </div>
                   <button className="btn btn-outline btn-sm">Connect</button>
@@ -620,11 +620,11 @@ const Settings = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <h4 className="font-medium text-gray-900">API Keys</h4>
-                  <p className="text-xs text-gray-500">Manage your API keys for programmatic access</p>
+                  <p className="text-xs text-gray-500">Illustrative key display; no API or credentials are provisioned</p>
                 </div>
                 <button className="btn btn-primary btn-sm">
                   <Plus size={16} className="mr-1" />
-                  Generate Key
+                  Generate Key (not implemented)
                 </button>
               </div>
               
@@ -632,7 +632,7 @@ const Settings = () => {
                 <div className="rounded-md bg-gray-50 p-3">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-sm font-medium text-gray-700">Production Key</p>
+                      <p className="text-sm font-medium text-gray-700">Sample key display (not usable)</p>
                       <p className="text-xs text-gray-500">Created: April 10, 2025</p>
                     </div>
                     <div className="flex items-center space-x-2">
@@ -662,7 +662,7 @@ const Settings = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-medium text-gray-900">Data Management</h3>
-              <p className="text-sm text-gray-600">Manage your data storage and export options.</p>
+              <p className="text-sm text-gray-600">Storage, backup and export controls are mockups, not services.</p>
             </div>
             
             <div className="rounded-md border border-gray-200 bg-white p-4">
@@ -677,7 +677,7 @@ const Settings = () => {
               
               <div className="flex items-center justify-between text-sm">
                 <span className="text-gray-600">
-                  350 MB used of 1 GB
+                  Sample usage: 350 MB used of 1 GB
                 </span>
                 <button className="font-medium text-primary-600 hover:text-primary-700">
                   Upgrade Storage
@@ -692,7 +692,7 @@ const Settings = () => {
                   <h4 className="font-medium text-gray-900">Data Backup</h4>
                 </div>
                 <p className="mt-1 text-sm text-gray-600">
-                  Configure automatic backups of your call data and settings.
+                  Backup options are illustrative; no backups are created.
                 </p>
                 <div className="mt-3 space-y-3">
                   <div>
@@ -738,7 +738,7 @@ const Settings = () => {
                   <h4 className="font-medium text-gray-900">Export Data</h4>
                 </div>
                 <p className="mt-1 text-sm text-gray-600">
-                  Export your data in various formats for analysis or backup.
+                  Export controls are illustrative; no files are generated.
                 </p>
                 <div className="mt-4 space-y-2">
                   <button className="btn btn-outline btn-sm w-full justify-start">
@@ -772,12 +772,12 @@ const Settings = () => {
                   <path fillRule="evenodd" d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003ZM12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75Zm0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clipRule="evenodd" />
                 </svg>
                 <div>
-                  <h4 className="font-medium">Data Retention Notice</h4>
+                  <h4 className="font-medium">Retention mockup — not implemented</h4>
                   <p className="mt-1 text-sm">
-                    Call recordings and transcripts are retained for 90 days by default. You can modify this in your data retention policy.
+                    The 90-day retention setting is illustrative only. Recording, transcription, storage and retention enforcement are not implemented.
                   </p>
                   <button className="mt-2 text-sm font-medium text-yellow-800 underline">
-                    View Data Retention Policy
+                    Retention Policy (not implemented)
                   </button>
                 </div>
               </div>
@@ -801,7 +801,7 @@ const Settings = () => {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Settings</h1>
-        <p className="text-gray-600">Manage your account and AI agent settings</p>
+        <p className="text-gray-600">Settings mockup: controls change local form state only; Save Changes is not implemented.</p>
       </div>
       
       {/* Settings tabs */}
@@ -827,7 +827,7 @@ const Settings = () => {
           >
             <div className="flex items-center">
               <Bot size={16} className="mr-2" />
-              AI Agent Settings
+              Voice Settings Mockup
             </div>
           </button>
           <button

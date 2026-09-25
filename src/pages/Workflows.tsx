@@ -138,7 +138,7 @@ const Workflows = () => {
       <div className="flex flex-col justify-between space-y-4 sm:flex-row sm:items-center sm:space-y-0">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Workflows</h1>
-          <p className="text-gray-600">Create and manage call workflows</p>
+          <p className="text-gray-600">Sample workflows and statuses; no execution or scheduling.</p>
         </div>
         <div>
           <button className="btn btn-primary">

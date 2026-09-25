@@ -112,7 +112,7 @@ const UserManagement = () => {
       <div className="flex flex-col justify-between space-y-4 sm:flex-row sm:items-center sm:space-y-0">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">User Management</h1>
-          <p className="text-gray-600">Manage users and their permissions</p>
+          <p className="text-gray-600">Sample users and illustrative permissions; not server-enforced access.</p>
         </div>
         <div>
           <button className="btn btn-primary">
@@ -294,7 +294,7 @@ const UserManagement = () => {
       
       {/* User role permissions */}
       <div className="card">
-        <h3 className="mb-4 text-lg font-semibold">Role Permissions</h3>
+        <h3 className="mb-4 text-lg font-semibold">Illustrative permissions (not enforced)</h3>
         
         <div className="overflow-x-auto">
           <table className="min-w-full divide-y divide-gray-200">
