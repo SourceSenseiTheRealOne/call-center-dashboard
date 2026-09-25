@@ -101,7 +101,7 @@ const Messages = () => {
       <div className="flex flex-col justify-between space-y-4 sm:flex-row sm:items-center sm:space-y-0">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Message Templates</h1>
-          <p className="text-gray-600">Create and manage AI call scripts</p>
+          <p className="text-gray-600">Sample scripts; no message delivery or template persistence.</p>
         </div>
         <div>
           <button className="btn btn-primary">
@@ -220,7 +220,7 @@ const Messages = () => {
                     <div className="mt-4 rounded-md bg-primary-50 p-3 text-sm text-primary-700">
                       <p className="font-medium">Dynamic Variables</p>
                       <p className="mt-1">
-                        This message template includes placeholders that will be replaced with actual data when used:
+                        Placeholders are illustrative; automatic substitution is not implemented:
                       </p>
                       <ul className="mt-2 list-disc pl-5">
                         <li>[Company] - Your company name</li>

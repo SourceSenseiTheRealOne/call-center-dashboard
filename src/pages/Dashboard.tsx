@@ -14,16 +14,16 @@ const Dashboard = () => {
       <div className="flex flex-col justify-between space-y-4 md:flex-row md:items-center md:space-y-0">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
-          <p className="text-gray-600">Welcome back, {user?.name}</p>
+          <p className="text-gray-600">Sample dashboard for {user?.name}</p>
         </div>
         <div className="flex space-x-3">
           <button className="btn btn-primary">
             <Phone size={16} className="mr-2" />
-            New Call
+            New Call (demo only)
           </button>
           <button className="btn btn-outline">
             <GitBranch size={16} className="mr-2" />
-            New Workflow
+            New Workflow (demo only)
           </button>
         </div>
       </div>
@@ -81,7 +81,7 @@ const Dashboard = () => {
         {/* Activity chart - takes 2/3 of the width on large screens */}
         <div className="card lg:col-span-2">
           <div className="mb-4 flex items-center justify-between">
-            <h3 className="text-lg font-semibold">Call Activity</h3>
+            <h3 className="text-lg font-semibold">Sample call activity</h3>
             <div className="flex items-center space-x-2">
               <select className="input py-1 text-sm">
                 <option>Last 7 days</option>
@@ -111,7 +111,7 @@ const Dashboard = () => {
         
         {/* Quick actions - takes 1/3 of the width on large screens */}
         <div className="card">
-          <h3 className="mb-4 text-lg font-semibold">Quick Actions</h3>
+          <h3 className="mb-4 text-lg font-semibold">Action mockups (not implemented)</h3>
           <QuickActions />
         </div>
       </div>
@@ -119,7 +119,7 @@ const Dashboard = () => {
       {/* Recent calls table */}
       <div className="card">
         <div className="mb-4 flex items-center justify-between">
-          <h3 className="text-lg font-semibold">Recent Calls</h3>
+          <h3 className="text-lg font-semibold">Sample recent calls</h3>
           <a href="/analytics" className="flex items-center text-sm font-medium text-primary-600 hover:text-primary-700">
             View all
             <ArrowUpRight size={16} className="ml-1" />

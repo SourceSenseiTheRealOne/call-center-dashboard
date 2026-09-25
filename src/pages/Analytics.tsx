@@ -83,7 +83,7 @@ const Analytics = () => {
       <div className="flex flex-col justify-between space-y-4 sm:flex-row sm:items-center sm:space-y-0">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Analytics</h1>
-          <p className="text-gray-600">Monitor call center performance</p>
+          <p className="text-gray-600">Simulated analytics; sample metrics, not operational results.</p>
         </div>
         <div className="flex items-center space-x-3">
           <div className="flex items-center">
